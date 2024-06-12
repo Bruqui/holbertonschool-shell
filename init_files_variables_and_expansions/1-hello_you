@@ -1,2 +1,2 @@
 #!/bin/bash
-printnv USER
+export USER='''MyUser''' | echo "hello MyUser"
